@@ -12,7 +12,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "test/test.sh",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
     "release": "yarn publish"
   },
   "repository": {
