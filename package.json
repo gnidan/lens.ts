@@ -12,7 +12,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "test/test.sh",
-    "release": "yarn build && yarn publish"
+    "prepare": "yarn build"
+    "release": "yarn publish"
   },
   "repository": {
     "type": "git",
